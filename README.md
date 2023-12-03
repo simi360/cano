@@ -54,6 +54,3 @@ The application is structured into the following components:
 - **DepartmentFilter:** Provides options to filter products based on departments.
 - **Sorter:** Allows users to sort products by environmental impact.
 - **SearchInputBox:** Accepts user input for searching specific products.
-
-
-

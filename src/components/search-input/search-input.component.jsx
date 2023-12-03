@@ -1,4 +1,3 @@
-import React from 'react';
 import './search-input.styles.css'
 
 const SearchInputBox = ({searchChange}) => {

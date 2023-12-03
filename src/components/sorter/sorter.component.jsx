@@ -1,4 +1,3 @@
-import React from 'react';
 import './sorter.styles.css'
 
 const Sorter = ({ selectedSort, handleChangeSort }) => {

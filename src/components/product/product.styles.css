@@ -1,7 +1,6 @@
 ol {
     --scoreRangeMax: 5;
 	list-style: none;
-	/* counter-reset: list; */
 	padding: 0 1rem;
 
 }
@@ -16,7 +15,6 @@ li {
 	
 
 	position: relative;
-	/* counter-increment: list; */
 	max-width: 50rem;
 	margin: 2rem auto;
 	padding: 2rem 1rem 1rem;

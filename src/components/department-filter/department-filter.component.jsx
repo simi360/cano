@@ -1,4 +1,3 @@
-import React from 'react';
 import '../sorter/sorter.styles.css'
 
 const DepartmentFilter = ({ selectedFilter, handleChangeFilter, filterOptions }) => {

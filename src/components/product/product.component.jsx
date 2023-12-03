@@ -4,7 +4,7 @@ const Product = ({productData}) => {
 
     return(
         <>
-            <ol role="list">
+            <ol>
                 <li style={{"--productScore": productData.envImpact}}>
                     <h3>{productData.name}</h3>
                     <p><strong>Manufacturer: </strong>{productData.manufacturer}</p>

@@ -1,5 +1,7 @@
 import { Fragment, useState, useEffect } from 'react'
 import './App.css'
+
+//Importing Components
 import ProductList from './components/product-list/product-list.component';
 import DepartmentFilter from './components/department-filter/department-filter.component';
 import Sorter from './components/sorter/sorter.component';
@@ -51,6 +53,7 @@ function App() {
   const handleChangeFilter = (e) => {
     setSelectedFilter(e.target.value);
     setSelectedSort(''); // Reset the sort when filter changes
+
     if(e.target.value === '' || e.target.value === "All Products") setDisplayedData(data);
     else setDisplayedData(data.filter(d => d.department === e.target.value));
   }
@@ -62,7 +65,6 @@ const handleChangeSort = (e) => {
       const sortedData = [...displayedData].sort((a, b) => a.envImpact - b.envImpact);
       setDisplayedData(sortedData);
     }
-  
     if (e.target.value === "Descending") {
       const sortedData = [...displayedData].sort((a, b) => b.envImpact - a.envImpact);
       setDisplayedData(sortedData);

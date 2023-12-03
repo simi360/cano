@@ -9,7 +9,7 @@ input{
     background-image: none;
     height: 3rem;
     width: 20em;
-    color: black;
+    color: var(--text-color);
     cursor: auto;
     font-size: 1em;
     border: 1px solid;
