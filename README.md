@@ -41,7 +41,7 @@ Welcome to the Green Choice App, a sustainable shopping assistant! This applicat
 
 ### Usage
 
-1. Start the development server: `npm start dev`
+1. Start the development server: `npm run dev`
 2. Open your browser and go to [http://localhost:5173](http://localhost:5173)
 
 ## Components
