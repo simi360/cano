@@ -1,12 +1,7 @@
 # React + Vite
 
-# Green Choice App
-
-![Green Choice App Logo](./public/heartplant.svg)
-
 ## Table of Contents
 - [React + Vite](#react--vite)
-- [Green Choice App](#green-choice-app)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Please Note](#please-note)
