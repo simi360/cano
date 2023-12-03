@@ -1,0 +1,80 @@
+ol {
+    --scoreRangeMax: 5;
+	list-style: none;
+	/* counter-reset: list; */
+	padding: 0 1rem;
+
+}
+
+li {
+	--stop: calc(100% / var(--scoreRangeMax) * var(--productScore));
+	--l1: 62%;
+	--l2: 89%;
+	--hue: calc((var(--scoreRangeMax) - (var(--productScore))) * (180 / var(--scoreRangeMax)));
+	--hsl1: hsl(var(--hue), 71%, var(--l1));
+	--hsl2: hsl(var(--hue), 71%, var(--l2));
+	
+
+	position: relative;
+	/* counter-increment: list; */
+	max-width: 50rem;
+	margin: 2rem auto;
+	padding: 2rem 1rem 1rem;
+	box-shadow: 0.1rem 0.1rem 1.5rem rgba(0, 0, 0, 0.1);
+	border-radius: 1rem;
+	overflow: hidden;
+	background-color: whitesmoke;
+
+}
+
+li::before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 0.5rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: linear-gradient(to right, var(--hsl1) var(--stop), var(--hsl2) var(--stop));
+}
+
+h3 {
+	display: flex;
+	align-items: baseline;
+	margin: 0 0 1rem;
+	color: rgb(70 70 70);
+	text-align: center;
+}
+
+h3::before {
+    counter-reset: envImpact var(--productScore);
+	content: counter(envImpact);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 0 0 auto;
+	margin-right: 2rem;
+	width: 3rem;
+	height: 1rem;
+	padding: 1rem;
+	border-radius: 50%;
+	background-color: var(--hsl1);
+	color: white;
+}
+
+@media (min-width: 40em) {
+	li {
+		/* margin: 3rem auto; */
+		padding: 2rem;
+	}
+	
+	h3 {
+		font-size: 2.25rem;
+		margin: 0 0 2rem;
+	}
+	
+	h3::before {
+		margin-right: 1.5rem;
+        height: 3rem;
+	}
+}

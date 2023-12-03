@@ -1,0 +1,149 @@
+[
+  {
+    "name": "Shampoo",
+    "barcodeID": "123456789",
+    "manufacturer": "P&G",
+    "envImpact": "3",
+    "department": "Health and Beauty"
+  },
+  {
+    "name": "Toothpaste",
+    "barcodeID": "987654321",
+    "manufacturer": "Colgate",
+    "envImpact": "2",
+    "department": "Health and Beauty"
+  },
+  {
+    "name": "Makeup",
+    "barcodeID": "987651321",
+    "manufacturer": "Maybelline",
+    "envImpact": "4",
+    "department": "Health and Beauty"
+  },
+  {
+    "name": "Paper Towels",
+    "barcodeID": "456789123",
+    "manufacturer": "Bounty",
+    "envImpact": "2",
+    "department": "Household"
+  },
+  {
+    "name": "Laundry Detergent",
+    "barcodeID": "789123456",
+    "manufacturer": "Tide",
+    "envImpact": "5",
+    "department": "Household"
+  },
+  {
+    "name": "Cereal",
+    "barcodeID": "654321987",
+    "manufacturer": "Kellogg's",
+    "envImpact": "2",
+    "department": "Grocery"
+  },
+  {
+    "name": "Bread",
+    "barcodeID": "321987654",
+    "manufacturer": "Wonder",
+    "envImpact": "1",
+    "department": "Grocery"
+  },
+  {
+    "name": "Light Bulbs",
+    "barcodeID": "741852963",
+    "manufacturer": "GE",
+    "envImpact": "3",
+    "department": "Home Improvement"
+  },
+  {
+    "name": "Bottled Water",
+    "barcodeID": "852963741",
+    "manufacturer": "Dasani",
+    "envImpact": "2",
+    "department": "Beverages"
+  },
+  {
+    "name": "Coffee",
+    "barcodeID": "369258147",
+    "manufacturer": "Folgers",
+    "envImpact": "3",
+    "department": "Grocery"
+  },
+  {
+    "name": "Dish Soap",
+    "barcodeID": "258147369",
+    "manufacturer": "Dawn",
+    "envImpact": "4",
+    "department": "Household"
+  },
+  {
+    "name": "Diapers",
+    "barcodeID": "147369258",
+    "manufacturer": "Pampers",
+    "envImpact": "4",
+    "department": "Baby"
+  },
+  {
+    "name": "Baby Wipes",
+    "barcodeID": "147423258",
+    "manufacturer": "Johnson & Johnson",
+    "envImpact": "2",
+    "department": "Baby"
+  },
+  {
+    "name": "Pet Food",
+    "barcodeID": "963741852",
+    "manufacturer": "Purina",
+    "envImpact": "3",
+    "department": "Pets"
+  },
+  {
+    "name": "Plastic Trash Bags",
+    "barcodeID": "654987321",
+    "manufacturer": "Glad",
+    "envImpact": "5",
+    "department": "Household"
+  },
+  {
+    "name": "Yogurt",
+    "barcodeID": "987321654",
+    "manufacturer": "Chobani",
+    "envImpact": "2",
+    "department": "Grocery"
+  },
+  {
+    "name": "Toilet Paper",
+    "barcodeID": "321654987",
+    "manufacturer": "Charmin",
+    "envImpact": "3",
+    "department": "Household"
+  },
+  {
+    "name": "Snack Bars",
+    "barcodeID": "741963852",
+    "manufacturer": "Nature Valley",
+    "envImpact": "2",
+    "department": "Grocery"
+  },
+  {
+    "name": "Cleaning Wipes",
+    "barcodeID": "852741963",
+    "manufacturer": "Clorox",
+    "envImpact": "4",
+    "department": "Household"
+  },
+  {
+    "name": "Frozen Pizza",
+    "barcodeID": "369147852",
+    "manufacturer": "DiGiorno",
+    "envImpact": "2",
+    "department": "Grocery"
+  },
+  {
+    "name": "Hand Soap",
+    "barcodeID": "258369147",
+    "manufacturer": "Softsoap",
+    "envImpact": "4",
+    "department": "Household"
+  }
+]

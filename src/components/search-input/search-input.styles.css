@@ -1,0 +1,29 @@
+input{
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    -ms-appearance:none;
+    appearance:none;
+    outline:0;
+    box-shadow:none;
+    background: var(--background-color);
+    background-image: none;
+    height: 3rem;
+    width: 20em;
+    color: black;
+    cursor: auto;
+    font-size: 1em;
+    border: 1px solid;
+    padding-left: 1rem;
+}
+
+.search-box-container{
+    display: grid;
+    place-items: center;
+    margin-top: 0.5rem;
+}
+
+ @media (min-width: 40em) {
+    .search-box-container{
+        margin: 2rem;
+    }
+ }

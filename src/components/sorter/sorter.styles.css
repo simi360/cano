@@ -1,0 +1,45 @@
+label{
+    padding: 0 10px;
+}
+select{
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    -ms-appearance:none;
+    appearance:none;
+    outline:0;
+    box-shadow:none;
+    border: solid 1px;
+    background: var(--background-color);
+    background-image: none;
+    flex: 1;
+    padding: 0 .5em;
+    color: black;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+.select {
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    line-height: 3;
+    margin: 0.5rem;
+ }
+ .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    cursor:pointer;
+    pointer-events: none;
+    transition:.25s all ease;
+ }
+
+ .select:hover::after {
+    color: #23b499;
+ }
+
+ /* @media (min-width: 40em) {
+
+ } */
