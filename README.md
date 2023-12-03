@@ -23,10 +23,10 @@
 Welcome to the Green Choice App, a sustainable shopping assistant! This application helps users make eco-friendly choices by providing information about the environmental impact of various products. Users can filter and sort products based on different criteria, making it easier to find products that align with their sustainability goals.
 
 ## Please Note
--**1** Number next to the product name in product listing is environmental impact score of the product. Environmental scores range from 1 to 5, where 1 is the best score a product can have and 5 is the worst.
--**2** To mimic fetching data from API, product-data.json file is placed in public folder. Please note I couldn't find an API to get the required information for this assessment from.
--**3** I have used Vite for this assessment, instead of create-react-app
--**4** Used only css for styling
+- **1:** Number next to the product name in product listing is environmental impact score of the product. Environmental scores range from 1 to 5, where 1 is the best score a product can have and 5 is the worst.
+- **2:** To mimic fetching data from API, product-data.json file is placed in public folder. Please note I couldn't find an API to get the required information for this assessment from.
+- **3:** I have used Vite for this assessment, instead of create-react-app
+- **4:** Used only css for styling
 
 ## Features
 
